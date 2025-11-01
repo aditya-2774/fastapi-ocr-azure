@@ -7,6 +7,25 @@ import tempfile
 import re
 import json
 import os
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
+
+# Allow your frontend URLs
+origins = [
+    "http://localhost:3000",             # your local React dev
+    "https://your-frontend-domain.com",  # your deployed frontend (if any)
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 app = FastAPI(title="Smart Claim Analyzer", version="0.1.0")
 
