@@ -1,0 +1,32 @@
+
+--- Page 1 ---
+METLIFE INSURANCE CLAIM FORM
+
+Claim Number: CLM-784592
+
+Policy Number: PLC-10345
+
+Date of Incident: 12/09/2025
+
+Type of Loss: Vehicle Damage
+
+Claim Amount: $18,500
+
+Claimant Name: Aditya Jagtap
+
+Contact Email: aditya.jagtap@example.com
+
+Contact Number: +91 9876543210
+
+Incident Description:
+
+The insured vehicle met with an accident on the Mumbai-Pune expressway due to a rear-end
+collision.
+
+No major injuries were reported.
+
+Authorized Signature:
+Kalyan Korada
+Claims Manager
+
+MetLife Insurance
